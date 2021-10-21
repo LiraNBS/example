@@ -5,4 +5,11 @@ const words = document.querySelector(".words")
 const colors = document.querySelector(".colors")
 
 
-words
+words.addEventListener ('click', function(){
+    title.textContent += " Blah"
+})
+
+
+colors.addEventListener ('click', function(){
+    title.style.color = title.style.color =="red" ? "black" : "red"
+})
